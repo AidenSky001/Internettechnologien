@@ -22,6 +22,17 @@
       var subcategories = document.getElementById(categoryId);
       subcategories.style.display = subcategories.style.display === 'none' ? 'block' : 'none';
     }
+
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(function(registration) {
+          console.log('Service Worker registriert:', registration);
+        })
+        .catch(function(error) {
+          console.log('Fehler bei der Registrierung des Service Workers:', error);
+        });
+    }
+
   </script>
 </head>
 <body>
@@ -47,5 +58,6 @@
     <div>Unterkategorie 3.2</div>
     <div>Unterkategorie 3.3</div>
   </div>
+  
 </body>
 </html>
