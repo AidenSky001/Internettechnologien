@@ -1,4 +1,8 @@
-self.addEventListener('fetch', function(event) {
-    // Hier kannst du die Anforderungen abfangen und entsprechend reagieren
-  });
+importScripts(
+    'https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js'
+  );
   
+  workbox.routing.registerRoute(
+    ({request}) => request.destination === 'image',
+    new workbox.strategies.NetworkFirst()
+  );

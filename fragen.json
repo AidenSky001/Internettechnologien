@@ -1,0 +1,331 @@
+{
+    "teil-mathe": [
+      {
+        "f": "Wie lautet das Ergebnis von 2 + 2?",
+        "l": ["3", "4", "5", "6"],
+        "a": 1
+      },
+      {
+        "f": "Was ist die Wurzel von 16?",
+        "l": ["2", "4", "8", "16"],
+        "a": 1
+      },
+      {
+        "f": "Wie lautet die Summe der ersten fünf natürlichen Zahlen?",
+        "l": ["10", "15", "20", "25"],
+        "a": 2
+      },
+      {
+        "f": "Wie viele Ecken hat ein Dreieck?",
+        "l": ["2", "3", "4", "5"],
+        "a": 2
+      },
+      {
+        "f": "Wie lautet die quadratische Formel?",
+        "l": ["a + b", "a^2 + b^2", "ax^2 + bx + c", "a/b"],
+        "a": 3
+      },
+      {
+        "f": "Wie viele Grad hat ein rechter Winkel?",
+        "l": ["45", "90", "180", "360"],
+        "a": 2
+      },
+      {
+        "f": "Wie lautet das Ergebnis von 7 * 3?",
+        "l": ["10", "15", "20", "21"],
+        "a": 3
+      },
+      {
+        "f": "Was ist die Potenz von 2^3?",
+        "l": ["2", "4", "6", "8"],
+        "a": 4
+      },
+      {
+        "f": "Wie lautet die Fläche eines Rechtecks mit Länge 5 und Breite 8?",
+        "l": ["13", "30", "40", "56"],
+        "a": 3
+      },
+      {
+        "f": "Wie viele Millimeter sind in einem Zentimeter?",
+        "l": ["1", "10", "100", "1000"],
+        "a": 2
+      },
+      {
+        "f": "Wie lautet das Ergebnis von 9 - 5?",
+        "l": ["2", "3", "4", "5"],
+        "a": 3
+      },
+      {
+        "f": "Wie nennt man eine Zahl, die sich durch 2 ohne Rest teilen lässt?",
+        "l": ["Primzahl", "Gerade Zahl", "Ungerade Zahl", "Ganze Zahl"],
+        "a": 2
+      },
+      {
+        "f": "Wie lautet die Formel für den Umfang eines Kreises?",
+        "l": ["2 * Pi * r", "Pi * r^2", "Pi * d", "4 * a"],
+        "a": 1
+      },
+      {
+        "f": "Wie lautet die Dezimaldarstellung der Zahl 1/4?",
+        "l": ["0.1", "0.25", "0.5", "0.75"],
+        "a": 2
+      },
+      {
+        "f": "Wie lautet das Ergebnis von 3 * 4 - 2?",
+        "l": ["8", "10", "12", "14"],
+        "a": 3
+      },
+      {
+        "f": "Wie viele Seiten hat ein Pentagon?",
+        "l": ["3", "4", "5", "6"],
+        "a":
+  
+   3
+      },
+      {
+        "f": "Wie lautet die Potenzregel (a^m)^n?",
+        "l": ["a^(m + n)", "a^(m * n)", "(a^m)^n", "a^(m - n)"],
+        "a": 3
+      },
+      {
+        "f": "Wie lautet das Ergebnis von 12 / 3?",
+        "l": ["2", "3", "4", "6"],
+        "a": 3
+      },
+      {
+        "f": "Wie nennt man eine Zahl, die nur durch 1 und sich selbst ohne Rest teilbar ist?",
+        "l": ["Primzahl", "Gerade Zahl", "Ungerade Zahl", "Ganze Zahl"],
+        "a": 1
+      },
+      {
+        "f": "Wie lautet die Formel für den Flächeninhalt eines Dreiecks?",
+        "l": ["a + b + c", "a * b", "1/2 * a * b", "Pi * r^2"],
+        "a": 3
+      }
+    ],
+    "teil-internettechnologien": [
+      {
+        "f": "Was steht die Abkürzung HTML?",
+        "l": ["Hyperlinks and Text Markup Language", "Hypertext Markup Language", "Home Tool Markup Language", "Hyper Texting Markup Language"],
+        "a": 2
+      },
+      {
+        "f": "Welche Programmiersprache wird für Webseiten-Interaktion verwendet?",
+        "l": ["HTML", "CSS", "JavaScript", "Python"],
+        "a": 3
+      },
+      {
+        "f": "Wie nennt man eine eindeutige Adresse im Internet?",
+        "l": ["URL", "IP-Adresse", "Domain-Name", "Router"],
+        "a": 1
+      },
+      {
+        "f": "Was steht die Abkürzung CSS?",
+        "l": ["Computer Style Sheets", "Cascading Style Sheets", "Creative Style Sheets", "Coded Style Sheets"],
+        "a": 2
+      },
+      {
+        "f": "Was ist ein Server?",
+        "l": ["Ein Programm zum Surfen im Internet", "Ein Computer, der Webseiten bereitstellt", "Ein Webbrowser", "Ein Software-Entwicklungstool"],
+        "a": 2
+      },
+      {
+        "f": "Welches Protokoll wird für die Übertragung von Webseiten verwendet?",
+        "l": ["FTP", "HTTP", "SMTP", "TCP"],
+        "a": 2
+      },
+      {
+        "f": "Was bedeutet die Abkürzung URL?",
+        "l": ["Uniform Resource Locator", "Universal Remote Locator", "User Resource Language", "Uniform Remote Language"],
+        "a": 1
+      },
+      {
+        "f": "Was ist ein Cookie in Bezug auf das Internet?",
+        "l": ["Ein kleines Stück Kuchen", "Ein Virus", "Eine Sicherheitslücke", "Eine kleine Textdatei"],
+        "a": 4
+      },
+      {
+        "f": "Was ist ein DNS?",
+        "l": ["Domain Name System", "Dynamic Network System", "Data Network Server", "Digital Network Service"],
+        "a": 1
+      },
+      {
+        "f": "Welche Dateierweiterung wird für HTML-Dateien verwendet?",
+        "l": [".html", ".css", ".js", ".txt"],
+        "a":
+  
+   1
+      },
+      {
+        "f": "Welche Auszeichnungssprache wird für das Styling von Webseiten verwendet?",
+        "l": ["HTML", "CSS", "JavaScript", "Python"],
+        "a": 2
+      },
+      {
+        "f": "Was bedeutet die Abkürzung HTTP?",
+        "l": ["Hypertext Transfer Protocol", "Hyperlink Text Protocol", "Hypertext Technical Protocol", "Home Tool Transfer Protocol"],
+        "a": 1
+      },
+      {
+        "f": "Was ist eine IP-Adresse?",
+        "l": ["Eine eindeutige Adresse im Internet", "Eine Telefonnummer", "Eine E-Mail-Adresse", "Eine Passwort"],
+        "a": 1
+      },
+      {
+        "f": "Welches Protokoll wird für das Versenden von E-Mails verwendet?",
+        "l": ["FTP", "HTTP", "SMTP", "TCP"],
+        "a": 3
+      },
+      {
+        "f": "Was ist HTML?",
+        "l": ["Eine Programmiersprache", "Eine Datenbank", "Ein Betriebssystem", "Eine Auszeichnungssprache"],
+        "a": 4
+      },
+      {
+        "f": "Was ist CSS?",
+        "l": ["Eine Programmiersprache", "Eine Datenbank", "Ein Betriebssystem", "Eine Stylesheet-Sprache"],
+        "a": 4
+      },
+      {
+        "f": "Was ist JavaScript?",
+        "l": ["Eine Programmiersprache", "Eine Datenbank", "Ein Betriebssystem", "Ein Texteditor"],
+        "a": 1
+      },
+      {
+        "f": "Was ist eine Firewall?",
+        "l": ["Eine Software zum Schutz vor Viren", "Ein Webbrowser", "Ein Computer-Netzwerk", "Eine Sicherheitsmaßnahme"],
+        "a": 4
+      },
+      {
+        "f": "Was ist ein Router?",
+        "l": ["Ein Programm zum Surfen im Internet", "Ein Computer, der Webseiten bereitstellt", "Ein Webbrowser", "Ein Gerät zum Weiterleiten von Datenpaketen"],
+        "a": 4
+      },
+      {
+        "f": "Was ist ein Hosting-Service?",
+        "l": ["Ein E-Mail-Dienst", "Ein Internet-Provider", "Ein Dienst zum Bereitstellen von Webseiten", "Ein Social-Media-Netzwerk"],
+        "a": 3
+      }
+    ],
+    "teil-allgemein": [
+      {
+        "f": "Wann ist das Geburtsjahr von Karl der Große?",
+        "l": ["747", "828", "650", "1150"],
+        "a": 1
+      },
+      {
+        "f": "Wer hat die Relativitätstheorie entwickelt?",
+        "l": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Stephen Hawking"],
+        "a": 2
+      },
+      {
+        "f": "Was ist die Hauptstadt von Australien?",
+        "l": ["Sydney", "Melbourne", "Canberra", "Perth"],
+        "a": 3
+      },
+      {
+        "f": "Wie viele Kontinente gibt es auf der Erde?",
+        "l": ["5", "6", "7", "8"],
+        "a": 3
+      },
+      {
+        "f": "Wer hat das Buch 'Die Odyssee' gesch rieben?",
+        "l": ["Homer", "Platon", "Sokrates", "Aristoteles"],
+        "a": 1
+      },
+      {
+        "f": "Wie viele Spieler sind in einer Fußballmannschaft?",
+        "l": ["9", "10", "11", "12"],
+        "a": 3
+      },
+      {
+        "f": "Was ist die Hauptstadt von Kanada?",
+        "l": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
+        "a": 4
+      },
+      {
+        "f": "Welche Farbe hat eine reife Tomate?",
+        "l": ["Rot", "Grün", "Gelb", "Blau"],
+        "a": 1
+      },
+      {
+        "f": "Was ist die chemische Formel für Wasser?",
+        "l": ["CO2", "H2O", "NaCl", "C6H12O6"],
+        "a": 2
+      },
+      {
+        "f": "Wer hat das Buch 'Der Fänger im Roggen' geschrieben?",
+        "l": ["J.D. Salinger", "George Orwell", "F. Scott Fitzgerald", "Ernest Hemingway"],
+        "a": 1
+      },
+      {
+        "f": "Was ist die Hauptstadt von Japan?",
+        "l": ["Tokyo", "Osaka", "Kyoto", "Hiroshima"],
+        "a": 1
+      },
+      {
+        "f": "Wer hat das Gemälde 'Die letzte Abendmahl' gemalt?",
+        "l": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Michelangelo"],
+        "a": 1
+      },
+      {
+        "f": "Wie viele Beine hat ein Spinnen?",
+        "l": ["4", "6", "8", "10"],
+        "a": 3
+      },
+      {
+        "f": "Wer hat das Buch 'Pride and Prejudice' geschrieben?",
+        "l": ["Jane Austen", "Charlotte Bronte", "Emily Bronte", "Virginia Woolf"],
+        "a": 1
+      },
+      {
+        "f": "Wie viele Elemente gibt es im Periodensystem?",
+        "l": ["92", "101", "118", "124"],
+        "a": 3
+      },
+      {
+        "f": "Was ist die Hauptstadt von Brasilien?",
+        "l": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+        "a": 3
+      },
+      {
+        "f": "Wer hat das Buch 'Moby-Dick' geschrieben?",
+        "l": ["Herman Melville", "Mark Twain", "Jules Verne", "Charles Dickens"],
+        "a": 1
+      },
+      {
+        "f": "Wie viele Tage hat ein Jahr?",
+        "l": ["365", "366", "360", "364"],
+        "a": 1
+      },
+      {
+        "f": "Wer hat den Roman '1984' geschrieben?",
+        "l": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Margaret Atwood"],
+        "a": 1
+      },
+      {
+        "f": "Welches ist das größte Land der Welt?",
+        "l": ["Kanada", "Russland", "China", "Indien"],
+        "a": 2
+      }
+    ],
+  
+  
+    "teil-noten": [
+      {
+        "f": "Wie viele Noten gibt es in einer Dur-Tonleiter?",
+        "l": ["5", "7", "9", "12"],
+        "a": 2
+      },
+      {
+        "f": "Was ist der Grundton in einer C-Dur-Tonleiter?",
+        "l": ["C", "D", "E", "F"],
+        "a": 1
+      },
+      {
+        "f": "Was ist der höchste Ton in einer Klaviertastatur?",
+        "l": ["A", "C", "F", "G"],
+        "a": 4
+      }
+    ]
+  }
