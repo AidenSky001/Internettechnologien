@@ -1,13 +1,15 @@
-fetch('https://irene.informatik.htw-dresden.de:8888/api/quizzes') // Passe die URL deines Servers an
+fetch('fragen.json') // Passe den Dateinamen an
   .then(response => response.json())
   .then(data => {
-    const questions = data.content;
+    const questions = data['teil-allgemein'];
     const cardContainer = document.getElementById('card-container'); // Passe die ID des Container-Elements an
     const scoreContainer = document.getElementById('score-container'); // Passe die ID des Container-Elements für den Punktestand an
     let score = 0;
     let currentQuestionIndex = 0;
-
+    
+    
     displayNextQuestion();
+      
 
     function displayNextQuestion() {
       if (currentQuestionIndex >= questions.length || currentQuestionIndex >= 5) {
@@ -25,12 +27,12 @@ fetch('https://irene.informatik.htw-dresden.de:8888/api/quizzes') // Passe die U
       cardTitle.classList.add('mdl-card__title', 'mdl-card--expand');
 
       const title = document.createElement('h4');
-      title.textContent = question.text; // Frage aus der serverseitigen Antwort
+      title.textContent = question.f;
 
       cardTitle.appendChild(title);
       card.appendChild(cardTitle);
 
-      question.options.forEach((answer, index) => {
+      question.l.forEach((answer, index) => {
         const cardAction = document.createElement('div');
         cardAction.classList.add('mdl-card__actions', 'mdl-card--border');
 
@@ -49,14 +51,20 @@ fetch('https://irene.informatik.htw-dresden.de:8888/api/quizzes') // Passe die U
 
     function checkAnswer(selectedIndex) {
       const question = questions[currentQuestionIndex];
+      const progressElement = document.getElementById('p3');
 
       if (selectedIndex === question.a) {
         score++;
+        progressElement.MaterialProgress.setProgress(0 + (score * 20));
+      } else {
+        progressElement.MaterialProgress.setBuffer(0 + (score * 20));
       }
 
       currentQuestionIndex++;
-
+      
       displayNextQuestion();
+
+
     }
 
     function displayFinalScore() {
@@ -67,4 +75,9 @@ fetch('https://irene.informatik.htw-dresden.de:8888/api/quizzes') // Passe die U
 
       scoreContainer.appendChild(finalScoreMessage);
     }
+  });
+
+  document.querySelector('#p3').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(0 + (score * 20));
+    this.MaterialProgress.setBuffer(0);
   });

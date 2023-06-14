@@ -1,3 +1,7 @@
+.mord.mathnormal {
+  display: inline !important;
+  font-style: normal !important;
+}
 .question {
     margin-bottom: 20px;
   }
@@ -36,3 +40,4 @@
   .demo-card-event > .mdl-card__actions > .mdl-button {
     color: #fff;
   }
+ 

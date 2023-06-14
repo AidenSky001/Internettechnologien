@@ -2,7 +2,7 @@ var online;
 
 function checkServerStatus() {
     // Definiere den URL-Pfad zum Server
-    var serverURL = 'https://irene.informatik.htw-dresden.de:8888/api/quizzes/';
+    var serverURL = 'ttps://irene.informatik.htw-dresden.de:8888/api/quizzes/';
 
   
     // Führe eine AJAX-Anfrage an den Server durch
