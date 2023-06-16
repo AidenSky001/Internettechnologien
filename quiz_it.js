@@ -1,11 +1,12 @@
+let score = 0;
+let currentQuestionIndex = 0;
+
 fetch('fragen.json') // Passe den Dateinamen an
   .then(response => response.json())
   .then(data => {
     const questions = data['teil-internettechnologien'];
     const cardContainer = document.getElementById('card-container'); // Passe die ID des Container-Elements an
     const scoreContainer = document.getElementById('score-container'); // Passe die ID des Container-Elements für den Punktestand an
-    let score = 0;
-    let currentQuestionIndex = 0;
     
     
     displayNextQuestion();

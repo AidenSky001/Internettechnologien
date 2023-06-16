@@ -40,10 +40,9 @@
       <div class="mdl-layout__header-row">
         <!-- Title -->
         <span class="mdl-layout-title">Aufgaben</span>
-        <!-- Add spacer, to align navigation to the right -->
-        <div class="mdl-layout-spacer"></div>
-        <!-- Navigation. We hide it in small screens. -->
-        <nav class="mdl-navigation mdl-layout--large-screen-only">
+
+        <!-- Navigation -->
+        <nav class="mdl-navigation mdl-layout">
           <a class="mdl-navigation__link" href="index.html">Homescreen</a>
           <a class="mdl-navigation__link" href="Aufgaben.html">Aufgabenübersicht</a>
         </nav>
@@ -60,11 +59,18 @@
   </div>
       
   <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
-  <script src="quiz_mathe.js"></script>
+  <style>
+    span.mord {
+      display: none;
+    }
+    span.mbin{
+      display: none;
+    }
+  </style>
+  
+  <script src="quiz_allgemein.js"></script>
   <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
   <style src="offline.css"></style>
-
-
 </body>
 </html>

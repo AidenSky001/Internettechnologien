@@ -1,108 +1,3 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #BBDEFB; /* Blauer Hintergrund */
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: #212121;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    flex-direction: column;
-}
-
-.knopfRand {
-    display: flex;
-    justify-content: center; /* Buttons horizontal mittig ausrichten */
-    align-items: center; /* Buttons vertikal mittig ausrichten */
-    background-color: #3F51B5;
-    padding: 20px;
-    margin: 20px auto; /* Auto-Margin für zentrierte Ausrichtung */
-    border-radius: 2px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-    width: 50%;
-    flex-direction: column;
-}
-
-
-.ueberschrift {
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    color: #3F51B5;
-}
-
-
-button a {
-    color: #FFFFFF; /* Weißer Text auf den Buttons */
-    text-decoration: none; /* Entfernt die Unterstreichung */
-    flex-direction: column;
-}
-
-button {
-    background-color: #3F51B5; /* Dunkelblaue Buttons */
-    color: #FFFFFF; /* Weißer Text auf den Buttons */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; /* Übergangseffekt */
-}
-
-button:hover {
-    background-color: #303F9F; /* Dunklerer Blauton beim Überfahren mit der Maus */
-}
-
-.antworten {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    margin: 20px 0;
-}
-
-.knopf {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 0; /* 20px Abstand nach oben und unten */
-    width: 100%;
-}
-
-.frage{
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    margin-top: 15px;
-    color: #3F51B5;
-}
-
-.punktezahl{
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    margin-top: 1rem;
-    color: #3F51B5;
-}
-
-.fortschritt{
-    background-color: #CDDC39; /* Die Farbe des Fortschrittsbalkens */
-    height: 20px; /* Die Höhe des Fortschrittsbalkens */
-    width: 100%; /* Die anfängliche Breite des Fortschrittsbalkens */
-    transition: width 0.3s ease; /* Übergangseffekt */
-
-
-}
-
-.timer{
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    margin-top: 1rem;
-    color: #3F51B5;
-}
-
 table {
     width: 50%;
     margin: 0 auto;
@@ -136,7 +31,7 @@ th {
 
 #nameForm input[type="text"] {
     width: 80%;  /* Sie können die Breite nach Ihren Wünschen anpassen */
-    padding: 10px;
+    padding: 0px;
     border: none;
     border-radius: 2px;
     margin-bottom: 20px;
@@ -153,7 +48,7 @@ th {
     border-radius: 2px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 50%; /* Sie können die Breite nach Ihren Wünschen anpassen */
+    width: 10%; /* Sie können die Breite nach Ihren Wünschen anpassen */
 }
 
 #nameForm input[type="submit"]:hover {

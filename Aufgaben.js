@@ -2,7 +2,7 @@ var online;
 
 function checkServerStatus() {
     // Definiere den URL-Pfad zum Server
-    var serverURL = 'ttps://irene.informatik.htw-dresden.de:8888/api/quizzes/';
+    var serverURL = 'https://irene.informatik.htw-dresden.de:8888/api/quizzes/';
 
   
     // Führe eine AJAX-Anfrage an den Server durch
@@ -30,12 +30,12 @@ function checkServerStatus() {
   
   function checkOnlineStatus() {
     // Hole das Link-Element
-    var quizLink = document.getElementById('quizLink');
+    var generalLink = document.getElementById('generalLink');
   
     // Überprüfe den Wert der Variable "online"
     if (online) {
       // Setze die URL auf "Quiz.html", wenn "online" true ist
-      quizLink.href = "Quiz.html";
+      generalLink.href = "quiz_online.html";
     }
   }
 

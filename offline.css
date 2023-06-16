@@ -1,9 +1,5 @@
-.mord.mathnormal {
-  display: inline !important;
-  font-style: normal !important;
-}
 .question {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .correct {
@@ -14,15 +10,18 @@
     background-color: red;
   }
   .demo-card-event.mdl-card {
-    width: 256px;
-    height: 256px;
+    width: 400px;
+    height: 400px;
     background: #3E4EB8;
   }
   .demo-card-event > .mdl-card__actions {
     border-color: rgba(255, 255, 255, 0.2);
   }
   .demo-card-event > .mdl-card__title {
-    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
   .demo-card-event > .mdl-card__title > h4 {
     margin-top: 0;
@@ -40,4 +39,3 @@
   .demo-card-event > .mdl-card__actions > .mdl-button {
     color: #fff;
   }
- 
