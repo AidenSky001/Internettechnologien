@@ -3,12 +3,12 @@
       {
         "f": "Wie lautet das Ergebnis von 2 + 2?",
         "l": ["3", "4", "5", "6"],
-        "a": 1
+        "a": 2
       },
       {
         "f": "Was ist die Wurzel von 16?",
         "l": ["2", "4", "8", "16"],
-        "a": 1
+        "a": 2
       },
       {
         "f": "Wie lautet die Summe der ersten fünf natürlichen Zahlen?",

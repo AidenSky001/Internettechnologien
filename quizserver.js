@@ -1,3 +1,5 @@
+'use strict';
+
 let score = 0;
 let currentQuestionIndex = 0;
 const progressElement = document.getElementById('p3');

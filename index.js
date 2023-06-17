@@ -1,3 +1,5 @@
+'use strict';
+
 //Serveronline Variable
 var online;
 

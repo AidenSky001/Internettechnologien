@@ -1,3 +1,5 @@
+'use strict';
+
 let score = 0;
 let currentQuestionIndex = 0;
 
@@ -54,7 +56,7 @@ fetch('fragen.json') // Passe den Dateinamen an
       const question = questions[currentQuestionIndex];
       const progressElement = document.getElementById('p3');
 
-      if (selectedIndex === question.a) {
+      if ((selectedIndex +1) === question.a) {
         score++;
         progressElement.MaterialProgress.setProgress(0 + (score * 20));
       } else {

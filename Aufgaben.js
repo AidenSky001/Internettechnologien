@@ -1,3 +1,5 @@
+'use strict';
+
 var online;
 
 function checkServerStatus() {
